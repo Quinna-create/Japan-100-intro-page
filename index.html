@@ -2,102 +2,84 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Course Schedule</title>
+  <title>Unit 1: Big Pictures</title>
   <style>
     @font-face {
       font-family: 'California FB';
-      src: local('California FB'), url('https://fonts.cdnfonts.com/s/12345/CaliforniaFB.woff') format('woff');
+      src: local('California FB');
     }
 
     body {
       font-family: 'California FB', serif;
       background-color: #fdfcf9;
-      color: #333;
-      margin: 0;
+      color: #2c2c2c;
       padding: 2rem;
       line-height: 1.6;
     }
 
-    h1, h2, h3 {
+    h1, h2 {
       font-family: 'Book Antiqua', Palatino, serif;
-      color: #2c2c2c;
+      color: #1a1a1a;
       margin-bottom: 0.5em;
     }
 
-    .unit {
-      border-left: 5px solid #ccc;
-      padding-left: 1rem;
+    .image-frame {
+      border: 1px solid #ccc;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       margin-bottom: 2rem;
-      transition: border-color 0.3s ease;
-    }
-
-    .unit:hover {
-      border-color: #0077cc;
+      max-width: 100%;
     }
 
     .cue {
       display: inline-block;
       font-weight: bold;
-      padding: 0.2em 0.6em;
+      padding: 0.3em 0.7em;
       margin-right: 0.5em;
       border-radius: 4px;
       font-size: 0.9em;
       text-transform: uppercase;
       letter-spacing: 0.5px;
+      animation: fadeInCue 0.6s ease-in;
     }
 
-    .read {
-      background-color: #e0f7fa;
-      color: #00796b;
+    .read { background-color: #fdecea; color: #c62828; }
+    .do { background-color: #e8f5e9; color: #2e7d32; }
+    .think { background-color: #f3e5f5; color: #6a1b9a; }
+
+    @keyframes fadeInCue {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
-    .do {
-      background-color: #fff3e0;
-      color: #e65100;
+    ul {
+      padding-left: 1.2rem;
     }
 
-    .watch {
-      background-color: #ede7f6;
-      color: #5e35b1;
+    li {
+      margin-bottom: 1rem;
     }
 
-    .discuss {
-      background-color: #fce4ec;
-      color: #c2185b;
-    }
-
-    .fade-in {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeInUp 0.8s ease forwards;
-    }
-
-    @keyframes fadeInUp {
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    a {
+      color: #0077cc;
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <h1>Japan 416: Course Schedule</h1>
+  <h1>Unit 1: Big Pictures</h1>
 
-  <div class="unit fade-in">
-    <h2>Week 1: Introduction</h2>
-    <p><span class="cue read">Read</span> Syllabus and course overview</p>
-    <p><span class="cue watch">Watch</span> Welcome video</p>
-    <p><span class="cue do">Do</span> Introduce yourself on the discussion board</p>
-  </div>
+  <img class="image-frame" src="https://uwmil.instructure.com/courses/783640/files/94084479/preview" alt="Kabukichō" width="100%" />
 
-  <div class="unit fade-in">
-    <h2>Week 2: Shinsengumi Origins</h2>
-    <p><span class="cue read">Read</span> Chapter 1 of "Shinsengumi: The Shōgun’s Last Samurai Corps"</p>
-    <p><span class="cue discuss">Discuss</span> What defines loyalty in the Tokugawa era?</p>
-    <p><span class="cue do">Do</span> Timeline mapping activity</p>
-  </div>
+  <p>In this unit, we will be looking at <strong>big pictures</strong>. What do we mean when we're talking about Japanese literature? With a long and rich tradition of texts to choose from, why are we looking at the texts that we are this semester? In short, what is the key concept grounding this course, and how are we going to understand more about it?</p>
 
-  <!-- Add more units as needed -->
+  <p>We'll also talk about some fundamental tools we use in understanding literature and really any kind of cultural artifact. This includes the material in this course, but also things you will encounter every day in your daily life.</p>
+
+  <h2>📌 Week 1 Tasks</h2>
+  <ul>
+    <li><span class="cue read">Read</span> the <a href="https://uwmil.instructure.com/courses/783640/files/94086649?wrap=1" target="_blank">syllabus</a></li>
+    <li><span class="cue do">Do</span> pick up your books</li>
+    <li><span class="cue read">Read</span> After class, start on next week's reading (listed on the next page)</li>
+    <li><span class="cue think">Think</span> Reflect on today’s discussion and begin connecting readings to broader themes. Take notes, ask questions, and prepare to engage in class.</li>
+  </ul>
 </body>
 </html>
